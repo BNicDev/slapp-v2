@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.menu-container{
+    height: 1080px;
+    width: 104px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #202020;
+}
+.s-btn{
+    display: flex;
+    background-image: url(/img/letter-s.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+   margin-left: 22px;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px 16px;
+    gap: 10px;
+}
+button{
+    width: 56px;
+    height: 56px;
+    border-radius: 16px;
+    border: none;
+    margin: 5px;
+    background-color:#2b2b2b ;
+}
+.first-five-buttons{
+    margin: 20px 0;
+}
+.general-data{
+    background-image: url(/img/informacion-personal\ \(2\).png);
+    background-size: 26px 26px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.first-five-buttons .blue-btn{
+    background-color: #617aff;
+    background-image: url(/img/telefono-inteligente.png);
+    background-size: 26px 26px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.prize-btn{
+    background-image: url(/img/ribbon.png);
+    background-size: 26px 26px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.search-btn{
+    background-image: url(/img/search-interface-symbol.png);
+    background-size: 26px 26px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.second-two-buttons{
+    margin-bottom: 20px;
+}
+.btn-img{
+    margin-bottom: 50px;
+    background-image:url(/img/una-taza-de-javascript.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 50%;
+}
+
