@@ -61,6 +61,30 @@ button{
     background-repeat: no-repeat;
     background-position: center center;
 }
+.switch-btn{
+    background-image:url(/img/swap.png);
+    background-size: 26px 26px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.security-btn{
+    background-image: url(/img/verified.png);
+    background-size: 26px 26px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.menu-btn{
+    background-image: url(/img/menu.png);
+    background-size: 26px 26px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.config-btn{
+    background-image: url(/img/setting\ \(1\).png);
+    background-size: 26px 26px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
 .second-two-buttons{
     margin-bottom: 20px;
 }
