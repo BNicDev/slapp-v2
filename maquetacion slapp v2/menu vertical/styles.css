@@ -12,7 +12,7 @@ body{
 }
 .s-btn{
     display: flex;
-    background-image: url(/img/letter-s.png);
+    background-image: url(img/letter-s.png);
     background-size: cover;
     background-repeat: no-repeat;
    margin-left: 22px;
@@ -37,50 +37,50 @@ button{
     margin: 20px 0;
 }
 .general-data{
-    background-image: url(/img/informacion-personal\ \(2\).png);
+    background-image: url(img/informacion-personal\ \(2\).png);
     background-size: 26px 26px;
     background-position: center center;
     background-repeat: no-repeat;
 }
 .first-five-buttons .blue-btn{
     background-color: #617aff;
-    background-image: url(/img/telefono-inteligente.png);
+    background-image: url(img/telefono-inteligente.png);
     background-size: 26px 26px;
     background-position: center center;
     background-repeat: no-repeat;
 }
 .prize-btn{
-    background-image: url(/img/ribbon.png);
+    background-image: url(img/ribbon.png);
     background-size: 26px 26px;
     background-position: center center;
     background-repeat: no-repeat;
 }
 .search-btn{
-    background-image: url(/img/search-interface-symbol.png);
+    background-image: url(img/search-interface-symbol.png);
     background-size: 26px 26px;
     background-repeat: no-repeat;
     background-position: center center;
 }
 .switch-btn{
-    background-image:url(/img/swap.png);
+    background-image:url(img/swap.png);
     background-size: 26px 26px;
     background-repeat: no-repeat;
     background-position: center center;
 }
 .security-btn{
-    background-image: url(/img/verified.png);
+    background-image: url(img/verified.png);
     background-size: 26px 26px;
     background-repeat: no-repeat;
     background-position: center center;
 }
 .menu-btn{
-    background-image: url(/img/menu.png);
+    background-image: url(img/menu.png);
     background-size: 26px 26px;
     background-repeat: no-repeat;
     background-position: center center;
 }
 .config-btn{
-    background-image: url(/img/setting\ \(1\).png);
+    background-image: url(img/setting\ \(1\).png);
     background-size: 26px 26px;
     background-repeat: no-repeat;
     background-position: center center;
@@ -90,7 +90,7 @@ button{
 }
 .btn-img{
     margin-bottom: 50px;
-    background-image:url(/img/una-taza-de-javascript.png);
+    background-image:url(img/una-taza-de-javascript.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
