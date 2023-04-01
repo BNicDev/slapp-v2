@@ -1,0 +1,104 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: #DFDFDF;
+}
+.cards-container{
+    margin-top:450px ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.cards-container div{
+    margin: 10px 10px;
+}
+.big-card1{
+    height: 384px;
+    width: 496px;
+    border-radius: 15px; ;
+    background-color: white;
+    box-sizing: border-box;
+}
+.followers-list{
+    display: flex;
+    flex-direction: column;
+}
+.followers-list img{
+    height: 40px;
+    width: 40px;
+}
+.last-week-btn{
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background-color: #617aff;
+    width: 154px;
+    height: 33px;
+    font-size: 14px;
+}
+.big-card2{
+    height: 384px;
+    width: 496px;
+    border-radius: 15px;
+    background-color: white;
+    box-sizing: border-box;
+}
+.faithful-followers{
+    display: flex;
+    flex-direction: column; 
+}
+.faithful-followers img{
+    height: 40px;
+    width: 40px;
+    align-content: space-between;
+}
+.addbtn{
+    width: 32px;
+    height: 32px;
+    color: white;
+    background-color: #617aff;
+    border: none;
+    border-radius: 5px;
+}
+
+.small-card1{
+    box-sizing: border-box;
+    width: 224px;
+    height: 384px;
+    background-color: white;
+    border-radius: 15px;
+}
+.time{
+    display: flex;
+    flex-direction: column;
+    
+}
+.time img{
+    height: 30px;
+    width: 30px;
+}
+.title{
+    margin-bottom: 160px;
+}
+.time-prom{
+    color: grey;
+}
+
+.small-card2{
+    width: 224px;
+    height: 384px;
+    background-color: white;
+    border-radius: 15px;
+}
+.new-followers{
+    display: flex;
+    flex-direction: column;
+}
+.new-followers img{
+    height: 30px;
+    width: 30px;
+}
+.audience{
+    color: grey;
+}
