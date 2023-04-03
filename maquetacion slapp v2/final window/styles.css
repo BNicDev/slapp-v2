@@ -1,0 +1,343 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: #DFDFDF;
+}
+.menu-container{
+    height: 900px;
+    width: 75px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #202020;
+}
+.s-btn{
+    display: flex;
+    background-image: url(img/letter-s.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+     margin-left: 10px;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px 16px;
+    gap: 10px;
+}
+button{
+    width: 56px;
+    height: 56px;
+    border-radius: 16px;
+    border: none;
+    margin: 5px;
+    background-color:#2b2b2b ;
+}
+.first-five-buttons{
+    margin: 20px 0;
+}
+.general-data{
+    background-image: url(img/informacion-personal\ \(2\).png);
+    background-size: 26px 26px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.first-five-buttons .blue-btn{
+    background-color: #617aff;
+    background-image: url(img/telefono-inteligente.png);
+    background-size: 26px 26px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.prize-btn{
+    background-image: url(img/ribbon.png);
+    background-size: 26px 26px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.search-btn{
+    background-image: url(img/search-interface-symbol.png);
+    background-size: 26px 26px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.switch-btn{
+    background-image:url(img/swap.png);
+    background-size: 26px 26px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.security-btn{
+    background-image: url(img/verified.png);
+    background-size: 26px 26px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.menu-btn{
+    background-image: url(img/menu.png);
+    background-size: 26px 26px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.config-btn{
+    background-image: url(img/setting\ \(1\).png);
+    background-size: 26px 26px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.second-two-buttons{
+    margin-bottom: 20px;
+}
+.btn-img{
+    margin-bottom: 50px;
+    background-image:url(img/una-taza-de-javascript.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 50%;
+}
+/*aside info*/
+
+.notification-bar{
+    width: 100%;
+    height: 90px;
+}
+.mini-profile{
+    height: 60px;
+    width: 200px;
+    background-color: #2b2b2b;
+    border-radius: 20px;
+    position: absolute;
+    left: 700px;
+    top: 20px;
+}
+.notification{
+    height: 60px;
+    width: 60px;
+    border: none;
+    border-radius: 20px;
+    position: absolute;
+    right: 50px;
+    top: 20px;
+    background-image: url(/aside-info/img/notification.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 30px 30px;
+    background-color: white;
+}
+.right-container{
+    display: flex;
+}
+.info-container{
+    position: absolute;
+    left: 150px;
+    margin-top: 100px;
+}
+.info-container h1{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    letter-spacing: -0.02em;
+    width: 440px;
+    height: 174px;
+}
+.profile-container{
+    margin-top: 90px;
+    position: absolute;
+    width: 900px;
+    height: 260px;
+    right: 40px;
+    top:50px;
+    border-radius: 32px;
+    background-color: #2b2b2b;
+    
+}
+.profile-info{
+    position: absolute;
+    left: 50px;
+    top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 48px 32px;
+    gap: 24px;
+    width: 310px;
+    height: 100px;
+    background-color: #ffffff;
+    border-radius: 32px;
+}
+.profile-img{
+    background-image: url(/aside-info/img/owl.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 50px 50px;
+    width: 80px;
+    height: 80px;
+}
+.profile-data{
+    align-items: center;
+    justify-content: center;
+}
+.profile-data h3{
+    margin-bottom: 5px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    letter-spacing: -0.02em;
+}
+.profile-data p{
+    margin-top: 5px;
+    color: gray;
+}
+.score{
+    color: #ffffff;
+    position: absolute;
+    right: 290px;
+    top: 20px;
+}
+.add-btn{
+    color: grey;
+    background-color: #ffffff;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: none;
+    position: absolute;
+    left: 830px;
+    top: 120px;
+}
+/* cards*/
+.cards-container{
+    margin-top:380px;
+    margin-left: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.big-card1{
+    height: 384px;
+    width: 400px;
+    border-radius: 15px; ;
+    background-color: white;
+    box-sizing: border-box;
+    margin-left: 40px;
+}
+.followers-list{
+    display: flex;
+    flex-direction: column;
+}
+.followers-list img{
+    height: 40px;
+    width: 40px;
+}
+.last-week-btn{
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background-color: #617aff;
+    width: 154px;
+    height: 33px;
+    font-size: 14px;
+}
+.big-card2{
+    height: 384px;
+    width: 400px;
+    border-radius: 15px;
+    background-color: white;
+    box-sizing: border-box;
+}
+.faithful-followers{
+    display: flex;
+    flex-direction: column; 
+}
+.faithful-followers img{
+    height: 40px;
+    width: 40px;
+    align-content: space-between;
+}
+.addbtn{
+    width: 32px;
+    height: 32px;
+    color: white;
+    background-color: #617aff;
+    border: none;
+    border-radius: 5px;
+}
+
+.small-card1{
+    box-sizing: border-box;
+    width: 210px;
+    height: 384px;
+    background-color: white;
+    border-radius: 15px;
+}
+.time{
+    display: flex;
+    flex-direction: column;
+    
+}
+.time img{
+    height: 30px;
+    width: 30px;
+}
+.title{
+    margin-bottom: 160px;
+}
+.time-prom{
+    color: grey;
+}
+
+.small-card2{
+    width: 210px;
+    height: 384px;
+    background-color: white;
+    border-radius: 15px;
+}
+.new-followers{
+    display: flex;
+    flex-direction: column;
+}
+.new-followers img{
+    height: 30px;
+    width: 30px;
+}
+.audience{
+    color: grey;
+}
+/*long cards*/
+.long-cards-container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-left: 105px;
+}
+.long-cards-container div{
+    width: 705px;
+    height: 100px;
+    display: flex;
+    background-color: white;
+    margin-left: 20px;
+    border-radius: 10px; 
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+}
+.long-cards-container p{
+    margin: 0 40px;
+}
+.long-cards-container img{
+    height: 40px;
+    width: 40px;
+}
+.long-cards-container button{
+    width: 130px;
+    height: 56px;
+    border: none;
+    border-radius: 5px;
+    background-color: #617AFF;
+    color: white;
+}
+
